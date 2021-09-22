@@ -1,0 +1,14 @@
+.card {
+    position: relative;
+}
+
+.card__product {
+    position: absolute;
+
+}
+
+.card__ribbon {
+    position: relative;
+    left: 260px;
+    top: 300px;
+}

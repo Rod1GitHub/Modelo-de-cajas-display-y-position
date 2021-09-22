@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    }
+
+    .main {
+    background-color: #B0CCAB;
+    padding: 50px;
+    /* CSS adicional para resolver ejercicio */
+    margin: auto; /* Este centra el div en la página */
+    margin-top: 20px;
+    width: 50%;
+    }
+
+    .main__paragraph {
+    left: 40px;
+    position: fixed;
+    }
+
+    /* CSS adicional para resolver ejercicio */
+    .main__paragraph--right {
+        position: relative;
+        left:40px;
+    }

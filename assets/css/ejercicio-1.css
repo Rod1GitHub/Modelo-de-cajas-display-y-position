@@ -1,0 +1,28 @@
+/* BEM CSS Standard */
+
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+/* Wrapper */
+.main {
+    margin: 5px;
+    }
+
+/* Block */
+.box {
+    /* margin:; not used in this exercise*/
+    border: 2px solid #808080;
+    padding: 5px;
+    height: 100px;
+    width: 25%;
+    box-sizing: border-box; /* height and width ignoring aditional sizing */
+    }
+
+/* Block Modifier */
+.box--left {
+    float:left; /* moves block to the left inside a wrapper  */
+}
+    
